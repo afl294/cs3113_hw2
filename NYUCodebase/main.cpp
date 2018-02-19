@@ -546,12 +546,12 @@ int main(int argc, char *argv[]) {
 
 		//Check if ball hits bottom of screen
 		if (ball.y() < screen_bottom + ball.height() / 2){
-			ball.direction[1] *= -1;
+			ball.direction[1] = std::fabs(ball.direction[1]);
 		}
 
 		//Check if ball hits top of screen
 		if (ball.y() > screen_top - ball.height() / 2){
-			ball.direction[1] = -1;
+			ball.direction[1] = -std::fabs(ball.direction[1]);
 		}
 
 		//Check if ball passes left side of screen

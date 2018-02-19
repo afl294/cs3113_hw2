@@ -1,4 +1,4 @@
-﻿Build started 2/19/2018 12:08:55 AM.
+﻿Build started 2/19/2018 4:49:33 AM.
      1>Project "C:\Users\Alex\Documents\School\Game Programming\HW2\NYUCodebase\NYUCodebase\NYUCodebase.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\code\c++\libs\SDL2-2.0.7\include" /I"C:\code\c++\libs\SDL2_image-2.0.2\include" /I"C:\code\c++\libs\glew-2.1.0\include" /I"C:\code\c++\libs\SDL2_mixer-2.0.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINDOWS /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
@@ -25,4 +25,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.14
+Time Elapsed 00:00:02.09
